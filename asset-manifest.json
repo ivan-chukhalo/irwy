@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/irwy/static/css/main.30b828dc.css",
+    "main.js": "/irwy/static/js/main.bd2d1ba7.js",
+    "index.html": "/irwy/index.html",
+    "static/media/heart.svg": "/irwy/static/media/heart.b56e209e09f2f80da64ef7b0881a8cac.svg",
+    "main.30b828dc.css.map": "/irwy/static/css/main.30b828dc.css.map",
+    "main.bd2d1ba7.js.map": "/irwy/static/js/main.bd2d1ba7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30b828dc.css",
+    "static/js/main.bd2d1ba7.js"
+  ]
+}
