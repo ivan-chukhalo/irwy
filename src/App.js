@@ -10,7 +10,6 @@ function App(props) {
   const [mode, setMode] = React.useState("overview"); // overview - testAll - random10
   const isTesting = mode === "overview" ? false : true;
   
-  // 
   const [favorites, setFavorites] = React.useState(()=>{
     if (window.localStorage.getItem('irwy') === null){
       window.localStorage.setItem('irwy', JSON.stringify([]));
@@ -18,8 +17,6 @@ function App(props) {
     const listOfFavorites = JSON.parse(window.localStorage.getItem('irwy'));
     return listOfFavorites
   })
-  console.log(favorites)
-// 
 
   const originalList = props.data.map((verb) => [
     verb.translate.uk,

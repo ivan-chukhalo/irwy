@@ -1,68 +1,122 @@
 [
   {
-    "translate": { "uk": "v1" },
-    "forms": ["f1", "f2", "f3"],
+    "translate": { "uk": "сказати" },
+    "forms": ["say", "said", "said"],
     "isFavorite": false,
     "frequency": 7.5
   },
   {
-    "translate": { "uk": "v2" },
-    "forms": ["f1", "f2", "f3"],
+    "translate": { "uk": "зробити" },
+    "forms": ["make", "made", "made"],
     "isFavorite": false,
     "frequency": 6.2
   },
   {
-    "translate": { "uk": "v3" },
-    "forms": ["f1", "f2", "f3"],
+    "translate": { "uk": "йти" },
+    "forms": ["go", "went", "gone"],
     "isFavorite": false,
     "frequency": 5.1
   },
   {
-    "translate": { "uk": "v4" },
-    "forms": ["f1", "f2", "f3"],
+    "translate": { "uk": "брати" },
+    "forms": ["take", "took", "taken"],
     "isFavorite": false,
     "frequency": 4.4
   },
   {
-    "translate": { "uk": "v5" },
-    "forms": ["f1", "f2", "f3"],
+    "translate": { "uk": "прийти" },
+    "forms": ["come", "came", "come"],
     "isFavorite": false,
-    "frequency": 4.4
+    "frequency": 4.1
   },
   {
-    "translate": { "uk": "v6" },
-    "forms": ["f1", "f2", "f3"],
+    "translate": { "uk": "побачити" },
+    "forms": ["see", "saw", "seen"],
     "isFavorite": false,
-    "frequency": 4.4
+    "frequency": 4.1
   },
   {
-    "translate": { "uk": "v7" },
-    "forms": ["f1", "f2", "f3"],
+    "translate": { "uk": "знати" },
+    "forms": ["know", "knew", "known"],
     "isFavorite": false,
-    "frequency": 4.4
+    "frequency": 4.0
   },
   {
-    "translate": { "uk": "v8" },
-    "forms": ["f1", "f2", "f3"],
+    "translate": { "uk": "отримати" },
+    "forms": ["get", "got", "got"],
     "isFavorite": false,
-    "frequency": 4.4
+    "frequency": 3.7
   },
   {
-    "translate": { "uk": "v9" },
-    "forms": ["f1", "f2", "f3"],
+    "translate": { "uk": "давати" },
+    "forms": ["give", "gave", "given"],
     "isFavorite": false,
-    "frequency": 4.4
+    "frequency": 3.5
   },
   {
-    "translate": { "uk": "v10" },
-    "forms": ["f1", "f2", "f3"],
+    "translate": { "uk": "знаходити" },
+    "forms": ["find", "found", "found"],
     "isFavorite": false,
-    "frequency": 4.4
+    "frequency": 2.9
   },
   {
-    "translate": { "uk": "v11" },
-    "forms": ["f1", "f2", "f3"],
+    "translate": { "uk": "думати" },
+    "forms": ["think", "thought", "thought"],
     "isFavorite": false,
-    "frequency": 4.4
+    "frequency": 2.8
+  },
+  {
+    "translate": { "uk": "розповідати" },
+    "forms": ["tell", "told", "told"],
+    "isFavorite": false,
+    "frequency": 2.1
+  },
+  {
+    "translate": { "uk": "стати" },
+    "forms": ["become", "became", "become"],
+    "isFavorite": false,
+    "frequency": 1.9
+  },
+  {
+    "translate": { "uk": "показувати" },
+    "forms": ["show", "showed", "shown"],
+    "isFavorite": false,
+    "frequency": 1.8
+  },
+  {
+    "translate": { "uk": "залишати" },
+    "forms": ["leave", "left", "left"],
+    "isFavorite": false,
+    "frequency": 1.8
+  },
+  {
+    "translate": { "uk": "відчувати" },
+    "forms": ["feel", "felt", "felt"],
+    "isFavorite": false,
+    "frequency": 1.7
+  },
+  {
+    "translate": { "uk": "поставити" },
+    "forms": ["put", "put", "put"],
+    "isFavorite": false,
+    "frequency": 1.4
+  },
+  {
+    "translate": { "uk": "принести" },
+    "forms": ["bring", "brought", "brought"],
+    "isFavorite": false,
+    "frequency": 1.4
+  },
+  {
+    "translate": { "uk": "почати" },
+    "forms": ["begin", "began", "begun"],
+    "isFavorite": false,
+    "frequency": 1.4
+  },
+  {
+    "translate": { "uk": "тримати" },
+    "forms": ["keep", "kept", "kept"],
+    "isFavorite": false,
+    "frequency": 1.4
   }
 ]
