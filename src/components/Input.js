@@ -26,7 +26,6 @@ export default function Input(props) {
       value={inputValue}
       onBlur={handleBlur}
       onChange={handleChange}
-    //   disabled='disabled'
     />
   );
 }

@@ -6,30 +6,46 @@ import Row from "./components/Row";
 import Navigation from "./components/Navigation";
 
 function App(props) {
+  const [mode, setMode] = React.useState("overview"); // overview - testAll - random10 - favorite
+  const isTesting = mode !== "overview" ? true : false;
 
-  const [mode, setMode] = React.useState("overview"); // overview - testAll - random10
-  const isTesting = mode === "overview" ? false : true;
-  
-  const [favorites, setFavorites] = React.useState(()=>{
-    if (window.localStorage.getItem('irwy') === null){
-      window.localStorage.setItem('irwy', JSON.stringify([]));
+  const [favorites, setFavorites] = React.useState(() => {
+    if (window.localStorage.getItem("irwy") === null) {
+      window.localStorage.setItem("irwy", JSON.stringify([]));
     }
-    const listOfFavorites = JSON.parse(window.localStorage.getItem('irwy'));
-    return listOfFavorites
-  })
+    const listOfFavorites = JSON.parse(window.localStorage.getItem("irwy"));
+    return listOfFavorites;
+  });
+
+  React.useEffect(() => {
+    const newStorageContent = [...favorites];
+    window.localStorage.setItem("irwy", JSON.stringify(newStorageContent));
+  }, [favorites]);
 
   const originalList = props.data.map((verb) => [
     verb.translate.uk,
     ...verb.forms,
   ]);
 
-  const workingList =
-    mode !== "random10"
-      ? originalList
-      : originalList.sort(() => 0.5 - Math.random()).slice(0, 10);
+  function createWorkingList() {
+    if (mode === "random10") {
+      return originalList.sort(() => 0.5 - Math.random()).slice(0, 10);
+    }
+    if (mode === "favorite") {
+      return originalList.filter((verb) => favorites.includes(verb[0]));
+    }
+    return originalList;
+  }
 
-  const content = workingList.map((verb) => {
-    return <Row values={verb} isTesting={isTesting} key={nanoid()} />;
+  const content = createWorkingList().map((verb) => {
+    return (
+      <Row
+        values={verb}
+        isTesting={isTesting}
+        key={nanoid()}
+        setFavorites={setFavorites}
+      />
+    );
   });
 
   function toggleMode(event) {
@@ -41,6 +57,9 @@ function App(props) {
     }
     if (event.target.id === "random10") {
       setMode("random10");
+    }
+    if (event.target.id === "favorite") {
+      setMode("favorite");
     }
   }
 

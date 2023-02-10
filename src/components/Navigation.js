@@ -12,6 +12,9 @@ export default function Navigation(props) {
       <button className="nav__btn" id="random10" onClick={props.toggleMode}>
         Random 10
       </button>
+      <button className="nav__btn" id="favorite" onClick={props.toggleMode}>
+        Favorite
+      </button>
     </nav>
   );
 }

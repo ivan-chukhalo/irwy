@@ -118,5 +118,47 @@
     "forms": ["keep", "kept", "kept"],
     "isFavorite": false,
     "frequency": 1.4
+  },
+  {
+    "translate": { "uk": "утримувати" },
+    "forms": ["hold", "held", "held"],
+    "isFavorite": false,
+    "frequency": 1.4
+  },
+  {
+    "translate": { "uk": "писати" },
+    "forms": ["write", "wrote", "written"],
+    "isFavorite": false,
+    "frequency": 1.4
+  },
+  {
+    "translate": { "uk": "стояти" },
+    "forms": ["stand", "stood", "stood"],
+    "isFavorite": false,
+    "frequency": 1.2
+  },
+  {
+    "translate": { "uk": "чути" },
+    "forms": ["hear", "heard", "heard"],
+    "isFavorite": false,
+    "frequency": 1.1
+  },
+  {
+    "translate": { "uk": "дозволяти" },
+    "forms": ["let", "let", "let"],
+    "isFavorite": false,
+    "frequency": 1.1
+  },
+  {
+    "translate": { "uk": "означати" },
+    "forms": ["mean", "meant", "meant"],
+    "isFavorite": false,
+    "frequency": 1.0
+  },
+  {
+    "translate": { "uk": "встановити" },
+    "forms": ["set", "set", "set"],
+    "isFavorite": false,
+    "frequency": 1.1
   }
 ]

@@ -18,6 +18,10 @@ code {
   box-sizing: border-box;
 }
 
+.root{
+  background-color: rgba(84, 84, 223, 0.601);
+}
+
 .header{
   text-align: center;
 }
@@ -34,7 +38,6 @@ code {
 
 .main{
   margin: 0 auto;
-  background-color: aquamarine;
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
