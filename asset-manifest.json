@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/irwy/static/css/main.30b828dc.css",
-    "main.js": "/irwy/static/js/main.55cdae29.js",
+    "main.css": "/irwy/static/css/main.4d90262a.css",
+    "main.js": "/irwy/static/js/main.32c7552e.js",
     "index.html": "/irwy/index.html",
     "static/media/heart.svg": "/irwy/static/media/heart.b56e209e09f2f80da64ef7b0881a8cac.svg",
-    "main.30b828dc.css.map": "/irwy/static/css/main.30b828dc.css.map",
-    "main.55cdae29.js.map": "/irwy/static/js/main.55cdae29.js.map"
+    "main.4d90262a.css.map": "/irwy/static/css/main.4d90262a.css.map",
+    "main.32c7552e.js.map": "/irwy/static/js/main.32c7552e.js.map"
   },
   "entrypoints": [
-    "static/css/main.30b828dc.css",
-    "static/js/main.55cdae29.js"
+    "static/css/main.4d90262a.css",
+    "static/js/main.32c7552e.js"
   ]
 }
